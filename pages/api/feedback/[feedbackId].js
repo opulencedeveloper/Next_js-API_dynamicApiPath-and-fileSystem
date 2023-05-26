@@ -1,5 +1,3 @@
-//this fn is reached with -> api/anything, maybe an Id
-//note that you can also implement catch-all-rotes with [...feedback].js
 import { buildFeedbackPath, extractFeedback } from ".";
 
 function handler(req, res) {
